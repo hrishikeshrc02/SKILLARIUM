@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  font-family: Vendana;
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+h1{
+			color:green;
+            border-style: solid;
+
+
+		}
+        h3{
+            color: blue;
+            border-style: solid;
+        }
+</style>
+</head>
+<body>
+	<div class="header">
+  <center>
+    <img src="assets/img/img_avatar2.png" width="360" height="180">
+  </center>
+</div>
+
+<div class="topnav">
+  <a href="./index.html">Home</a>
+  <a href="./login.html">Login</a>
+  <a href="#">Sign Up</a>
+  <a href="./contactus.html" style="float:right">Contact Us</a>
+</div>
+	<h1>Registration forms for interested learners</h1>
+	<h3>For Educators kindly contact the email addresses given on the CONTACT US page</h3>
+	<form>
+		Enter Your Name::<input type="text" placeholder="Enter Your Name" required><br><br>
+		Enter Your Email Address::<input type="email" placeholder="Enter Your Email" required><br><br>
+		Enter Your Mobile Number::<input type="number" placeholder="Enter Your Mobile" required><br><br>
+        Enter Your Address::<input type="text" placeholder="Enter Your Address" required><br><br>
+        Enter your Gender::<input type="radio" id="male" name="gender" value="male" >Male
+          <input type="radio" id="female" name="gender" value="female" >Female
+        <input type="radio" id="others" name="gender" value="others">Others<br><br>
+        <SELECT name="Enter Your Area of interest in learning">
+        	<option>Enter your desired area of learning</option>
+        	<option>Music</option>
+        	<option>Technology</option>
+        	<option>Dance</option>
+        	<option>Science</option>
+        	<option>Commerce</option>  
+        	<option>Arts</option>
+        	<option>Others</option>     
+        </SELECT><br><br>
+        Enter Your preferred mode of learning<input type="radio" id="Offline" name="Mode of learning" value="Offline" >Offline
+        <input type="radio" id="Online" name="Mode of learning" value="Online" >Online
+        <br><br>
+        <input type="submit" value="Click Here To Submit" onclick="alert('Your response has been recorded!')"><br><br>
+        <input type="reset" value="Click Here To Reset">
+
+
+
+	</form>
+
+	<div class="footer">
+  <span>&#169;</span>Skillarium, 2021
+</div>
+</body>
+</html>

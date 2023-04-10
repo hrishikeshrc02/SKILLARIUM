@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skillarium</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  font-family: Vendana;
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <center>
+    <img src="./assets/img/extendedlogo.png" width="360" height="180">
+  </center>
+</div>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="./login.html">Login</a>
+  <a href="./signup.html">Sign Up</a>
+  <a href="./contactus.html" style="float:right">Contact Us</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>OUR OFFERING</h2>
+      <p>In India there is a dearth of skilled and experienced teachers. This problem is more pronounced in the rural areas.</p>
+    <p>The education system in India is mostly dominated by large coaching institutes who charge a lumpsum. Needless to say, the majority of parents cannot afford to pay for the tuition of their wards, and thus have to discard their dreams of admitting their children in esteemed higher educational institutes of the country.</p>
+    <p>We at Skillarium have created a platform to bring together students and educators. Via our solution, students will be able to avail of quality learning resources compiled by top educators of the country. Thhis facility will be provided at affordable costs in line with our hope to reach to all corners of rural India.</p>
+    </div>
+    <div class="card">
+      <h2>FEATURES AND PRICING</h2>
+      <h4>Why choose Skillarium?</h4>
+      <p><i>For Students:</i></p>
+      <ul>
+          <li>Huge collection of educators suited for every student’s needs.</li>
+          <li>Educators from all fields- academics, sports, fitness or music. You name it, we have the educator for you.</li>
+          <li>Enrich your knowledge or skills through pre-recorded videos, live classes or through face-to-face, 1-on-1 interaction.</li>
+          <li>People in rural areas can easily access all our materials by making a very small payment. Financial aid is also available for the needy after proper review of documents.</li>
+      </ul>
+      <p><i>For Educators:</i></p>
+      <ul>
+          <li>Range of educational tools available to bring to life online classes.</li>
+          <li>Exposure to more students.</li>
+          <li>Secure payment gateway; payment based on student feedback and overall rating.</li>
+      </ul>
+      <br><br>
+      <h4>Subsriptions</h4>
+      <p><i>For Students:</i></p>
+      <ol>
+          <li>The Apprentice Package: Access to upto 5 educators at Rs 2500.</li>
+          <li>The Aspirant Package: Access to upto 10 educators at Rs 4500.</li>
+          <li>The Aficionado Package: Access to upto 15 educators at Rs 6000.</li>
+      </ol>
+      <ul><li><i>These rates are for online access only.</i></li>
+      <li>Individual educators can be accessed as per their rates (ranging from Rs 100 pm to Rs 1000 pm)</li>
+      </ul>
+      <p><i>For Educators:</i></p>
+      <ol>
+          <li>A one time registration fees to feature on the website as an Official Skillarium Educator (one month website showcase inclusive)(Rs300)</li>
+          <li>A 6/12 month package to be a part of the Skillarium Educator Group and access to showcase themselves on the website (Price Rs 500/900)</li>
+      </ol>
+    </div>
+    <div class="card">
+      <h2>FROM OUR CEO</h2>
+      <h4>Mr Hrishikesh Roy Choudhury</h4>
+      <blockquote>After I passed my +2, I had enrolled in a lot of online educational courses. It was then that I realised how in some subjects I could easily grasp the concepts watching online lectures while in other subjects I needed 1-on-1 guidance, but most of the time teachers weren’t available to provide me the assistance. Again, in college I realized how many tutors who have a great potential don’t get the proper exposure. So, me and my friends built this platform to bridge the gap between experienced and skilled educators and meritorious and tenacious students.</blockquote>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Us</h2>
+      <p>We are a group of young and energetic entrepreneurs trying to bring about a revolution in the Ed-tech segment.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <span>&#169;</span>Skillarium, 2021
+</div>
+
+</body>
+</html>
